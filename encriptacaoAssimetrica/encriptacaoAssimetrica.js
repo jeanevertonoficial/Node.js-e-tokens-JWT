@@ -23,7 +23,7 @@ import { publicEncrypt, privateDecrypt } from 'crypto'
 
 const dadosCriptografados = publicEncrypt(
     publicKey,
-    Buffer.from('Mensagem Super secreta')
+    Buffer.from('Mensagem Super secreta teste')
 )
 
 console.log(dadosCriptografados.toString('hex'))
